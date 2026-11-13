@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Free Creator Tools — Hindi Shorts Hooks, Viral Thumbnails & Train Berth Finder</title>
-<meta name="description" content="Free tools for India: Train Berth Finder (coach + seat number se berth type — Lower/Middle/Upper/Side, window ya aisle, 3D coach view ke saath), Hindi Shorts hook & title generator, and a viral thumbnail maker. No sign-up, no login, 100% free. By True Turns.">
-<meta name="keywords" content="train berth finder, berth position decoder, train seat number check, lower berth middle berth upper berth, side lower side upper, window seat aisle seat, hindi shorts hook generator, viral thumbnail maker, free youtube thumbnail maker hindi">
-<meta property="og:title" content="Creator Tools — Train Berth Finder, Hindi Shorts Hooks & Viral Thumbnails">
-<meta property="og:description" content="Train berth finder: seat number daalo, berth type + window/aisle jaano, 3D coach view mein apni berth dekho. Plus Hindi hooks & thumbnail maker. Free, no sign-up.">
+<title>Viral Thumbnail Maker — Free 1280×720 YouTube Thumbnails | True Turns</title>
+<meta name="description" content="Free viral thumbnail maker: apni photo upload karo, template chuno, text likho — 1280x720 PNG download karo. No sign-up, no login, 100% free. By True Turns.">
+<meta name="keywords" content="viral thumbnail maker, free youtube thumbnail maker hindi, youtube thumbnail maker, 1280x720 thumbnail">
+<meta property="og:title" content="Viral Thumbnail Maker — Free 1280x720 Thumbnails">
+<meta property="og:description" content="Apni photo upload karo, template chuno, 1280x720 PNG download karo. Free, no sign-up.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#7c3aed">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"Creator Tools — Train Berth Finder, Hindi Shorts Hooks & Thumbnail Maker","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"description":"Free Indian tools: train berth position decoder with 3D coach view, Hindi Shorts hook & title generator, and viral YouTube thumbnail maker."}
+{"@context":"https://schema.org","@type":"WebApplication","name":"Viral Thumbnail Maker","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"description":"Free viral YouTube thumbnail maker: apni photo upload karo, template chuno, 1280x720 PNG download karo. Free, no sign-up."}
 </script>
 <style>
 :root{--vio:#7c3aed;--vio2:#a855f7;--gold:#FFD400;--ink:#14101f;--mut:#5b5568;--bg:#f6f4fb;--card:#fff;--line:#e7e2f2;--ok:#0e9f6e}
@@ -76,161 +76,21 @@ details{margin-top:10px;font-size:14px}
 details summary{cursor:pointer;font-weight:700;color:var(--vio)}
 #selftest-result{display:none}
 
-/* ---------- Tool 3: Train Berth Finder (multi-view) ---------- */
-.berth-hero{background:linear-gradient(135deg,#1e1b4b,#4c1d95 55%,#7c3aed);border-radius:18px;padding:24px 18px 20px;color:#fff;margin:-4px -4px 16px;text-align:center;box-shadow:0 10px 28px rgba(76,29,149,.28)}
-.berth-hero .train{font-size:46px;line-height:1}
-.berth-hero h3{font-size:clamp(21px,5.5vw,26px);margin-top:6px;line-height:1.2}
-.berth-hero p{opacity:.93;font-size:14px;margin-top:6px;max-width:560px;margin-left:auto;margin-right:auto}
-.berth-nav{display:flex;gap:8px;align-items:center;margin:0 0 12px;font-size:14px}
-.berth-nav a{color:var(--vio);font-weight:700;text-decoration:none}
-.berth-nav .crumb{color:var(--mut)}
-.berth-nav .here{font-weight:800;color:var(--ink)}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 4px}
-@media(max-width:560px){.steps{grid-template-columns:1fr}}
-.step{background:#faf8ff;border:1px solid var(--line);border-radius:12px;padding:12px 10px;text-align:center}
-.step b{display:block;font-size:15px}
-.step span{font-size:12.5px;color:var(--mut)}
-.step .n{display:inline-block;background:var(--vio);color:#fff;width:24px;height:24px;line-height:24px;border-radius:50%;font-size:13px;font-weight:800;margin-bottom:6px}
-.coach-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}
-@media(max-width:560px){.coach-grid{grid-template-columns:1fr}}
-.coach-card{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px;cursor:pointer;text-align:left;transition:transform .15s,box-shadow .15s,border-color .15s}
-.coach-card:hover,.coach-card:focus{border-color:var(--vio);box-shadow:0 6px 18px rgba(124,58,237,.16);transform:translateY(-2px)}
-.coach-card .code{font-size:26px;font-weight:900;color:var(--vio);line-height:1}
-.coach-card .nm{font-weight:800;font-size:15px;margin-top:2px}
-.coach-card .nm small{color:var(--mut);font-weight:600}
-.coach-card .meta{font-size:12.5px;color:var(--mut);margin-top:4px}
-.coach-card .types{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}
-.coach-card .types span{background:#ede9fe;color:#5b21b6;font-size:11px;font-weight:800;border-radius:6px;padding:2px 7px}
-.coach-card .go{margin-top:10px;font-size:13.5px;font-weight:800;color:var(--vio)}
-.coach-card.soon{opacity:.85}
-.coach-card .soon-badge{display:inline-block;background:#fef3c7;color:#92400e;font-size:11px;font-weight:800;border-radius:6px;padding:2px 8px;margin-left:6px;vertical-align:3px}
-.helper{margin-top:18px}
-.helper h4{font-size:16px;margin-bottom:4px}
-.helper .sub{font-size:13.5px;color:var(--mut);margin-bottom:10px}
-.scen{display:flex;flex-wrap:wrap;gap:8px}
-.scen button{flex:1 1 44%;padding:11px 10px;border:1.5px solid var(--line);background:#fff;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;text-align:left}
-.scen button.on{background:linear-gradient(135deg,#4c1d95,#7c3aed);color:#fff;border-color:#4c1d95}
-.helper-out{display:none;margin-top:12px;background:#f0fdf4;border:1.5px solid #bbf7d0;border-radius:12px;padding:14px;font-size:14px}
-.helper-out.show{display:block}
-.helper-out b{color:#14532d}
-.helper-out .go-link{display:inline-block;margin-top:8px;color:var(--vio);font-weight:800;text-decoration:none}
-.coach-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
-.coach-pills button{flex:1 1 30%;min-width:96px;padding:11px 6px;border:1.5px solid var(--line);background:#fff;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;color:var(--ink)}
-.coach-pills button small{display:block;font-weight:400;font-size:11.5px;color:var(--mut);margin-top:2px}
-.coach-pills button.on{background:linear-gradient(135deg,#4c1d95,#7c3aed);color:#fff;border-color:#4c1d95}
-.coach-pills button.on small{color:#e9d5ff}
-.seat-input{font-size:30px!important;text-align:center;font-weight:800;letter-spacing:2px;padding:14px!important}
-.err{display:none;background:#fef2f2;border:1.5px solid #fecaca;color:#991b1b;border-radius:10px;padding:10px 12px;font-size:14px;margin-top:12px;font-weight:600}
-.err.show{display:block}
-.berth-result{display:none;margin-top:18px}
-.berth-result.show{display:block;animation:fadeUp .45s ease}
-@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.res-card{background:linear-gradient(135deg,#1e1b4b,#4c1d95 55%,#7c3aed);color:#fff;border-radius:20px;padding:24px 18px;text-align:center;box-shadow:0 10px 30px rgba(76,29,149,.35)}
-.res-card .seatno{font-size:14px;opacity:.85;font-weight:700;letter-spacing:1px}
-.res-card .big{font-size:clamp(30px,8vw,44px);font-weight:900;line-height:1.1;margin:8px 0 2px}
-.res-card .big-hi{font-size:clamp(19px,5vw,24px);font-weight:700;color:#FFD400}
-.res-card .tip{font-size:14px;opacity:.92;margin-top:10px;max-width:520px;margin-left:auto;margin-right:auto}
-.pills{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
-.pill{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);color:#fff;border-radius:999px;padding:6px 13px;font-size:13.5px;font-weight:700}
-.pill.gold{background:#FFD400;color:#1e1b4b;border-color:#FFD400}
-.coach-wrap{margin-top:18px}
-.coach-title{font-size:15px;font-weight:800;margin:4px 0 8px}
-.coach-strip{overflow-x:auto;background:#faf8ff;border:1px solid var(--line);border-radius:14px;padding:10px 6px;-webkit-overflow-scrolling:touch}
-.coach-strip svg{display:block;min-width:680px;width:100%;height:auto}
-.bay-card{margin-top:14px;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px}
-.bay-card h4{font-size:15px;margin-bottom:10px}
-.bay-grid{display:grid;gap:8px}
-.bay-cell{background:#f5f3ff;border:1.5px solid #ddd6fe;border-radius:10px;padding:9px 4px;text-align:center}
-.bay-cell b{display:block;font-size:17px}
-.bay-cell span{font-size:11.5px;color:var(--mut);font-weight:700}
-.bay-cell.me{background:linear-gradient(135deg,#FFD400,#ffb800);border-color:#b45309;box-shadow:0 0 0 3px rgba(255,212,0,.45)}
-.bay-cell.me b{color:#1e1b4b}
-.bay-cell.me span{color:#78350f}
-.bay-cell.me .tag{display:inline-block;background:#1e1b4b;color:#FFD400;font-size:10px;border-radius:6px;padding:1px 6px;margin-top:3px}
-@keyframes pulseRing{0%{opacity:1}50%{opacity:.2}100%{opacity:1}}
-.hl-ring{animation:pulseRing 1.3s ease-in-out infinite}
-.nc-card{background:#fffbeb;border:1.5px solid #fde68a;border-radius:14px;padding:16px;margin-top:16px;font-size:14px;color:#78350f}
-.src-note{font-size:12.5px;color:var(--mut);margin-top:12px}
-.guide-box{background:#faf8ff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:14px;font-size:14px}
-.guide-box h4{font-size:15px;margin-bottom:6px}
-.guide-box ul{margin:6px 0 0 18px}
-.guide-box li{margin:4px 0}
-.type-list{display:grid;gap:8px;margin-top:10px}
-.type-row{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-.type-row .code-chip{flex:none;background:#ede9fe;color:#5b21b6;font-weight:900;border-radius:8px;padding:4px 10px;font-size:13px}
-.type-row .tt{font-size:14px}
-.type-row .tt b{display:block}
-.type-row .tt span{color:var(--mut);font-size:13px}
 </style>
 </head>
 <body>
 <header>
   <div class="badge">100% FREE &bull; NO SIGN-UP &bull; NO LOGIN</div>
-  <h1>Creator Tools <span style="color:var(--gold)">&#9733;</span><br>Shorts Hooks &amp; Viral Thumbnails</h1>
-  <p>Hindi creators ke liye free tools — viral hooks, titles, hashtags aur click karne par majboor karne wale thumbnails. Phone par chalao, free mein use karo.</p>
-  <div style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
-    <a href="#tool-berth" style="background:#FFD400;color:#1e1b4b;font-weight:800;padding:8px 16px;border-radius:999px;text-decoration:none;font-size:14px">🚆 Train Berth Finder</a>
-    <a href="#tool-hooks" style="background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);color:#fff;font-weight:700;padding:8px 16px;border-radius:999px;text-decoration:none;font-size:14px">Hook Generator</a>
-    <a href="#tool-thumb" style="background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);color:#fff;font-weight:700;padding:8px 16px;border-radius:999px;text-decoration:none;font-size:14px">Thumbnail Maker</a>
-  </div>
+  <h1>Viral Thumbnail Maker <span style="color:var(--gold)">&#9733;</span></h1>
+  <p>Apni photo upload karo, template chuno, text likho — 1280&times;720 PNG download karo. Click karne par majboor karne wale thumbnails, free mein.</p>
+</div>
   <a class="tt" href="https://www.youtube.com/@TrueTurns-e7y" target="_blank" rel="noopener">▶ True Turns YouTube Channel</a>
 </header>
 
 <main>
-  <!-- ============ TOOL 1 ============ -->
-  <section class="card" id="tool-hooks">
-    <h2><span class="n">1</span> Hindi Shorts Hook &amp; Title Generator</h2>
-    <p class="sub">Topic likho — 10 viral hooks + 10 titles + hashtags turant. Patterns 2025–26 ke viral Shorts research par based hain: pehle 2.5 second mein faisla hota hai, isliye har hook payoff se shuru hota hai.</p>
-
-    <label for="topic">Video ka topic</label>
-    <input type="text" id="topic" placeholder="jaise: Ratan Tata, Chhatrapati Shivaji, Paisa" maxlength="80">
-
-    <label>Category</label>
-    <div class="seg" id="catSeg">
-      <button type="button" data-cat="biography" class="on">Biography</button>
-      <button type="button" data-cat="motivation">Motivation</button>
-      <button type="button" data-cat="facts">Facts</button>
-      <button type="button" data-cat="story">Story</button>
-      <button type="button" data-cat="money">Money</button>
-    </div>
-
-    <label>Language</label>
-    <div class="seg" id="langSeg">
-      <button type="button" data-lang="hi" class="on">हिन्दी (Devanagari)</button>
-      <button type="button" data-lang="hing">Hinglish</button>
-    </div>
-
-    <div class="row">
-      <div>
-        <label for="num1">Starting number <span style="color:var(--mut);font-weight:400">(optional — jaise ₹15,000)</span></label>
-        <input type="text" id="num1" placeholder="₹15,000" maxlength="30">
-      </div>
-      <div>
-        <label for="num2">Ending number <span style="color:var(--mut);font-weight:400">(optional — jaise ₹75,000 crore)</span></label>
-        <input type="text" id="num2" placeholder="₹75,000 crore" maxlength="30">
-      </div>
-    </div>
-    <div class="note">Number Contrast hook tabhi banega jab dono numbers bharo — warna baaki 13 patterns se hooks banenge. Numbers hamesha sahi likho, guess mat karo.</div>
-
-    <button class="btn" id="genBtn">⚡ Hooks &amp; Titles Generate Karo</button>
-
-    <div class="result" id="hookResult">
-      <div class="res-h">🎯 10 Viral Hooks <span style="font-weight:400;color:var(--mut);font-size:13px">— pehle 2 second mein bolne wali line</span></div>
-      <div id="hooksList"></div>
-      <div class="res-h">📌 10 Titles</div>
-      <div id="titlesList"></div>
-      <div class="res-h">#️⃣ Hashtags</div>
-      <div class="chips" id="tagsList"></div>
-      <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
-        <button class="btn small ghost" id="copyAllBtn">📋 Sab Copy Karo</button>
-        <button class="btn small green" id="waBtn">💬 WhatsApp Par Share Karo</button>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ TOOL 2 ============ -->
   <section class="card" id="tool-thumb">
-    <h2><span class="n">2</span> Viral Thumbnail Maker</h2>
+    <h2><span class="n">1</span> Viral Thumbnail Maker</h2>
     <p class="sub">Apni photo upload karo, template chuno, text likho — 1280×720 PNG download karo. Templates 2025–26 ke 10,000+ viral thumbnails ke research par based hain.</p>
 
     <label>1. Apni photo upload karo</label>
@@ -311,70 +171,14 @@ details summary{cursor:pointer;font-weight:700;color:var(--vio)}
     </div>
   </section>
 
-  <!-- ============ TOOL 3: TRAIN BERTH FINDER ============ -->
-  <section class="card" id="tool-berth">
-    <!-- ===== View: HOME ===== -->
-    <div id="berthHome">
-      <div class="berth-hero">
-        <div class="train">🚆</div>
-        <h3>Train Berth Finder<br>ट्रेन बर्थ फाइंडर</h3>
-        <p>Coach chuno, seat number likho — turant pata chalega aapki berth Lower, Middle, Upper ya Side hai, aur window side hai ya aisle side. Poora coach 3D view mein apni berth ke saath dekho.</p>
-        <div style="margin-top:10px;font-size:12.5px;opacity:.85">By True Turns • <a href="https://www.youtube.com/@TrueTurns-e7y" target="_blank" rel="noopener" style="color:#FFD400;font-weight:700">True Turns YouTube Channel</a></div>
-      </div>
-
-      <div class="steps">
-        <div class="step"><span class="n">1</span><b>Coach chuno</b><span>Sleeper, 3A, 2A, Chair Car…</span></div>
-        <div class="step"><span class="n">2</span><b>Seat number likho</b><span>Ticket par likha number</span></div>
-        <div class="step"><span class="n">3</span><b>Berth dekho</b><span>3D coach view mein highlighted</span></div>
-      </div>
-
-      <h2 style="margin-top:18px"><span class="n">3</span> Apna coach chuno</h2>
-      <p class="sub">Neeche apne ticket wala coach chuno — har coach ka layout alag hota hai.</p>
-      <div class="coach-grid" id="coachGrid"></div>
-
-      <div class="helper">
-        <h4>🤔 Kaunsi berth best hai mere liye?</h4>
-        <p class="sub">Apni situation chuno — zyada tar travellers kya prefer karte hain, woh batayenge. Yeh common preference hai, koi guarantee nahi.</p>
-        <div class="scen" id="scenRow">
-          <button type="button" data-scen="family">👨‍👩‍👧 Bachchon ke saath family</button>
-          <button type="button" data-scen="tall">📏 Lamba aadmi (6 ft+)</button>
-          <button type="button" data-scen="elderly">👵 Buzurg / chadhne mein dikkat</button>
-          <button type="button" data-scen="quiet">😴 Akele, shanti chahiye</button>
-          <button type="button" data-scen="day">☀️ Din ka safar, baithna hai</button>
-          <button type="button" data-scen="view">🌅 Bahar ka view dekhna hai</button>
-        </div>
-        <div class="helper-out" id="helperOut"></div>
-      </div>
-
-      <div class="note">PNR ki zaroorat nahi — sirf coach class aur seat number se kaam ho jata hai. Sab kuch aapke phone mein hi chalta hai, offline bhi. Koi data collect nahi hota.</div>
-    </div>
-
-    <!-- ===== View: COACH PAGE ===== -->
-    <div id="berthCoach" style="display:none">
-      <div class="berth-nav"><a href="#berth">← All coaches</a><span class="crumb">/</span><span class="here" id="coachCrumb">Sleeper</span></div>
-      <div id="coachPage"></div>
-      <label for="seatInput" style="margin-top:16px">Apna berth / seat number likho <span style="color:var(--mut);font-weight:400">(ticket par likha number)</span></label>
-      <input type="text" id="seatInput" class="seat-input" inputmode="numeric" autocomplete="off" placeholder="jaise: 41" maxlength="3">
-      <div class="err" id="seatErr"></div>
-      <button class="btn" id="checkBtn">🔍 Meri Berth Dekho</button>
-      <div class="src-note" id="coachNote"></div>
-    </div>
-
-    <!-- ===== View: RESULT PAGE ===== -->
-    <div id="berthResult" style="display:none">
-      <div class="berth-nav"><a href="#berth" id="backHomeLink">← All coaches</a><span class="crumb">/</span><a href="#" id="backCoachLink">Coach page</a><span class="crumb">/</span><span class="here">Aapki berth</span></div>
-      <div id="resultPage"></div>
-      <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
-        <button class="btn small green" id="waShareBtn" style="flex:1">💬 WhatsApp Par Share Karo</button>
-        <button class="btn small ghost" id="againBtn" style="flex:1">🔁 Doosri Berth Check Karo</button>
-      </div>
-    </div>
+  <section class="card">
+    <h2>&#128646; Train Berth Finder</h2>
+    <p class="sub">Train Berth Finder ab apni alag site par hai — coach chuno, seat number likho, berth type + window/aisle + 3D coach view dekho.</p>
+    <a class="btn ghost" href="https://pranav-69-69.github.io/train-berth-finder/" target="_blank" rel="noopener" style="text-align:center;display:block;text-decoration:none">Train Berth Finder kholo &rarr;</a>
   </section>
 
   <section class="card">
     <h2>Kaise use karein?</h2>
-    <details open><summary>Hook Generator kaise kaam karta hai?</summary>
-      <p style="margin-top:8px">Topic aur category chuno, Generate dabao. Har hook ke saath uska pattern likha hai (jaise Number Contrast, Question) taaki aap seekho ki kaunsa pattern kyun kaam karta hai. Apni pasand ka hook copy karo, apne Short mein pehle 2 second mein bolo, aur on-screen text mein bhi wahi likho — hook tabhi kaam karta hai jab awaaz + text + pehla frame ek hi baat kahein.</p>
     </details>
     <details><summary>Thumbnail Maker mein photo kahan se laayein?</summary>
       <p style="margin-top:8px">Apni khud ki photo ya video ka screenshot use karo — wahi sabse best hai. Doosre creators ki photo ya film ke stills use mat karo, woh copyright issue de sakte hain. Photo aapke phone/browser se bahar kahin nahi jaati.</p>
@@ -386,8 +190,8 @@ details summary{cursor:pointer;font-weight:700;color:var(--vio)}
 </main>
 
 <footer>
-  Made with ❤️ for Indian creators • Free forever, no sign-up • <a href="https://www.youtube.com/@TrueTurns-e7y" target="_blank" rel="noopener">True Turns on YouTube</a><br>
-  <span style="font-size:12px">Hooks aur thumbnails patterns par based hain — koi views ya viral hone ki guarantee nahi. Mehnat + consistency hi asli formula hai.</span>
+  Made with &#10084;&#65039; for Indian creators &bull; Free forever, no sign-up &bull; <a href="https://www.youtube.com/@TrueTurns-e7y" target="_blank" rel="noopener">True Turns on YouTube</a><br>
+  <span style="font-size:12px">Thumbnails patterns par based hain — koi views ya viral hone ki guarantee nahi. Mehnat + consistency hi asli formula hai.</span>
 </footer>
 
 <div id="selftest-result"></div>
@@ -396,67 +200,6 @@ details summary{cursor:pointer;font-weight:700;color:var(--vio)}
 (function () {
   var CT = window.CreatorTools;
   var $ = function (id) { return document.getElementById(id); };
-
-  /* ---------- Tool 1 ---------- */
-  var cat = 'biography', lang = 'hi', lastOut = null;
-
-  function segInit(id, attr, cb) {
-    var el = $(id);
-    el.addEventListener('click', function (e) {
-      var b = e.target.closest('button'); if (!b) return;
-      el.querySelectorAll('button').forEach(function (x) { x.classList.remove('on'); });
-      b.classList.add('on'); cb(b.getAttribute(attr));
-    });
-  }
-  segInit('catSeg', 'data-cat', function (v) { cat = v; });
-  segInit('langSeg', 'data-lang', function (v) { lang = v; });
-
-  function copyText(txt, btn) {
-    function done() { if (btn) { btn.textContent = '✓ Copied'; btn.classList.add('done'); setTimeout(function () { btn.textContent = '📋 Copy'; btn.classList.remove('done'); }, 1500); } }
-    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(txt).then(done, function () { fallback(); }); }
-    else fallback();
-    function fallback() {
-      var ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta);
-      ta.select(); try { document.execCommand('copy'); } catch (e) {} document.body.removeChild(ta); done();
-    }
-  }
-
-  function itemRow(text, pattern) {
-    var d = document.createElement('div'); d.className = 'item';
-    var t = document.createElement('div'); t.className = 't'; t.textContent = text;
-    var tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = pattern; t.appendChild(document.createElement('br')); t.appendChild(tag);
-    var b = document.createElement('button'); b.className = 'copy'; b.textContent = '📋 Copy';
-    b.addEventListener('click', function () { copyText(text, b); });
-    d.appendChild(t); d.appendChild(b); return d;
-  }
-
-  $('genBtn').addEventListener('click', function () {
-    var topic = $('topic').value.trim();
-    if (!topic) { alert('Pehle video ka topic likho!'); $('topic').focus(); return; }
-    var out = CT.generateHooks(topic, cat, lang, $('num1').value.trim(), $('num2').value.trim());
-    lastOut = out;
-    var hl = $('hooksList'); hl.innerHTML = '';
-    out.hooks.forEach(function (h) { hl.appendChild(itemRow(h.text, h.pattern)); });
-    var tl = $('titlesList'); tl.innerHTML = '';
-    out.titles.forEach(function (t) { tl.appendChild(itemRow(t.text, t.pattern)); });
-    var tg = $('tagsList'); tg.innerHTML = '';
-    out.hashtags.forEach(function (h) {
-      var c = document.createElement('span'); c.className = 'chip'; c.textContent = h; tg.appendChild(c);
-    });
-    $('hookResult').classList.add('show');
-    if ($('hookResult').scrollIntoView) $('hookResult').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
-
-  $('copyAllBtn').addEventListener('click', function () {
-    if (!lastOut) return;
-    var all = lastOut.hooks.map(function (h) { return h.text; }).concat(lastOut.titles.map(function (t) { return t.text; })).concat([lastOut.hashtags.join(' ')]);
-    copyText(all.join('\n'), this);
-  });
-  $('waBtn').addEventListener('click', function () {
-    if (!lastOut) return;
-    var msg = 'Mere Shorts ke hooks — Creator Tools se:\n\n' + lastOut.hooks.slice(0, 3).map(function (h) { return '• ' + h.text; }).join('\n') + '\n\n' + lastOut.hashtags.join(' ');
-    window.open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank');
-  });
 
   /* ---------- Tool 2 ---------- */
   var canvas = $('thumbCanvas'), ctx = canvas.getContext('2d');
@@ -517,375 +260,42 @@ details summary{cursor:pointer;font-weight:700;color:var(--vio)}
 
   /* ---------- Self-test (?selftest=1) ---------- */
   if (/[?&]selftest=1/.test(location.search)) {
-    var res = { hooks: null, thumb: null };
-    try {
-      var t = CT.generateHooks('Ratan Tata', 'biography', 'hi', '₹15,000', '₹75,000 crore');
-      res.hooks = { count: t.hooks.length, titles: t.titles.length, tags: t.hashtags.length, sample: t.hooks[0] ? t.hooks[0].text : '' };
-    } catch (e) { res.hooks = { error: String(e) }; }
-    try {
-      var bt = [['sl', 41, 'LB'], ['sl', 7, 'SL'], ['sl', 80, 'SU'], ['3a', 72, 'SU'], ['2a', 5, 'SL'], ['2a', 53, 'SL'], ['3e', 8, 'SM'], ['cc', 6, 'M'], ['cc', 1, 'W'], ['cc', 78, 'A'], ['ec', 4, 'W'], ['2s', 2, 'M']];
-      var bok = true;
-      bt.forEach(function (c) { var r = CT.decodeBerth(c[0], c[1]); if (!r.ok || r.code !== c[2]) bok = false; });
-      if (CT.decodeBerth('sl', 81).ok) bok = false;
-      if (CT.decodeBerth('3a', 73).ok) bok = false;
-      var b1a = CT.decodeBerth('1a', 5);
-      if (b1a.ok || b1a.covered !== false) bok = false;
-      res.berth = { ok: bok, cases: bt.length };
-    } catch (e) { res.berth = { error: String(e) }; }
-    try {
-      var tc = document.createElement('canvas'); tc.width = 640; tc.height = 360;
-      var tctx = tc.getContext('2d');
-      var g = tctx.createLinearGradient(0, 0, 640, 360); g.addColorStop(0, '#7c3aed'); g.addColorStop(1, '#f59e0b');
-      tctx.fillStyle = g; tctx.fillRect(0, 0, 640, 360);
-      tctx.fillStyle = '#fff'; tctx.font = '900 60px sans-serif'; tctx.fillText('TEST', 240, 190);
-      var tim = new Image();
-      tim.onload = function () {
-        var st = { img: tim, template: 'face-text', line1: 'TEST HOOK', line2: 'THUMBNAIL', number: '1', color: '#FFD400', scale: 1, side: 'right', bright: 1, contrast: 1 };
-        CT.drawThumbnail(ctx, st);
-        var url = canvas.toDataURL('image/png');
-        res.thumb = { ok: url.indexOf('data:image/png') === 0, bytes: url.length };
-        finish();
-      };
-      tim.onerror = function () { res.thumb = { error: 'test image failed' }; finish(); };
-      tim.src = tc.toDataURL('image/png');
-    } catch (e) { res.thumb = { error: String(e) }; finish(); }
-    function finish() {
-      var pass = res.hooks && res.hooks.count === 10 && res.hooks.titles === 10 && res.thumb && res.thumb.ok && res.berth && res.berth.ok;
+    var res = { thumb: null };
+    function finishThumb() {
+      var pass = !!(res.thumb && res.thumb.ok);
       var el = document.getElementById('selftest-result');
-      el.textContent = JSON.stringify({ pass: pass, hooks: res.hooks, thumb: res.thumb });
+      el.textContent = JSON.stringify({ pass: pass, thumb: res.thumb });
       document.title = pass ? 'SELFTEST PASS' : 'SELFTEST FAIL';
     }
+    try {
+      var st = { img: { naturalWidth: 640, naturalHeight: 360 }, template: 'face-text', line1: 'TEST TEXT', line2: 'THUMBNAIL', number: '1', color: '#FFD400', scale: 1, side: 'right', bright: 1, contrast: 1 };
+      var out = CT.drawThumbnail(ctx, st);
+      res.thumb = { ok: !!(out && out.width === 1280 && out.height === 720) };
+      finishThumb();
+    } catch (e) {
+      // Real browser: drawImage needs a real image — use the canvas-image path.
+      try {
+        var tc = document.createElement('canvas'); tc.width = 640; tc.height = 360;
+        var tctx = tc.getContext('2d');
+        var g = tctx.createLinearGradient(0, 0, 640, 360); g.addColorStop(0, '#7c3aed'); g.addColorStop(1, '#f59e0b');
+        tctx.fillStyle = g; tctx.fillRect(0, 0, 640, 360);
+        tctx.fillStyle = '#fff'; tctx.font = '900 60px sans-serif'; tctx.fillText('TEST', 240, 190);
+        var tim = new Image();
+        tim.onload = function () {
+          var st2 = { img: tim, template: 'face-text', line1: 'TEST TEXT', line2: 'THUMBNAIL', number: '1', color: '#FFD400', scale: 1, side: 'right', bright: 1, contrast: 1 };
+          try {
+            var out2 = CT.drawThumbnail(ctx, st2);
+            res.thumb = { ok: !!(out2 && out2.width === 1280 && out2.height === 720) };
+          } catch (e2) { res.thumb = { error: String(e2) }; }
+          finishThumb();
+        };
+        tim.onerror = function () { res.thumb = { error: 'test image failed' }; finishThumb(); };
+        tim.src = tc.toDataURL('image/png');
+      } catch (e3) { res.thumb = { error: String(e3) }; finishThumb(); }
+    }
   }
 })();
 </script>
-<script>
-/* ---------- Tool 3: Train Berth Finder (multi-view) ---------- */
-(function () {
-  var CT = window.CreatorTools;
-  var $ = function (id) { return document.getElementById(id); };
-  var state = { coach: 'sl', last: null };
 
-  var TYPE_LABELS = { LB: 'Lower', MB: 'Middle', UB: 'Upper', SL: 'Side Lower', SM: 'Side Middle', SU: 'Side Upper', W: 'Window', M: 'Middle', A: 'Aisle' };
-
-  var SCEN = {
-    family: { rec: 'Lower Berth (LB)', why: 'Bachche aasani se chadh-utar sakte hain, aur din mein Lower baithne ki seat ban jati hai. Zyada tar families with kids Lower prefer karti hain.', coach: 'sl' },
-    tall: { rec: 'Lower Berth (LB)', why: 'Side Lower lagbhag 6 ft ki hoti hai, Lower lagbhag 6 ft 3 inch — lambe logon (6 ft+) ko Lower zyada comfortable lagti hai.', coach: 'sl' },
-    elderly: { rec: 'Lower Berth (LB)', why: 'Chadhna nahi padta, neeche hi rehti hai. Senior citizens ko railway bhi aksar Lower hi allot karti hai.', coach: 'sl' },
-    quiet: { rec: 'Upper Berth (UB)', why: 'Upper par din mein koi aakar nahi baithta — sabse shant rehti hai. Bas chadhna padta hai.', coach: 'sl' },
-    day: { rec: 'Side Lower (SL)', why: 'Din mein Side Lower do logon ki baithne ki seat ban jati hai — din ke safar mein kaafi log isey prefer karte hain.', coach: 'sl' },
-    view: { rec: 'Window side — Lower ya Upper', why: 'Main bay ki berths (Lower / Middle / Upper) khidki ki taraf hoti hain. Chair car mein Window Seat chuno.', coach: 'cc' }
-  };
-
-  /* ---------- Routing (hash-based mini pages) ---------- */
-  function currentRoute() {
-    var h = (location.hash || '').replace(/^#/, '');
-    if (h === 'berth-result') return { view: 'result' };
-    if (h === 'berth' || h === 'tool-berth') return { view: 'home' };
-    if (h.indexOf('berth-') === 0) {
-      var id = h.slice(6);
-      var c = CT.berthCoachById(id);
-      if (c && c.id === id) return { view: 'coach', coach: id };
-    }
-    return null;
-  }
-
-  function showView() {
-    var r = currentRoute();
-    if (!r) return;
-    $('berthHome').style.display = r.view === 'home' ? '' : 'none';
-    $('berthCoach').style.display = r.view === 'coach' ? '' : 'none';
-    $('berthResult').style.display = r.view === 'result' ? '' : 'none';
-    if (r.view === 'coach') renderCoachPage(r.coach);
-    if (r.view === 'result') renderResult();
-    var sec = $('tool-berth');
-    if (sec && sec.scrollIntoView) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-  window.addEventListener('hashchange', showView);
-
-  /* ---------- Home: coach cards ---------- */
-  function renderCoachCards() {
-    var g = $('coachGrid'); g.innerHTML = '';
-    CT.BERTH_COACHES.forEach(function (c) {
-      var d = document.createElement('div');
-      d.className = 'coach-card' + (c.covered === false ? ' soon' : '');
-      d.setAttribute('role', 'button');
-      d.tabIndex = 0;
-      var types = c.covered === false ? ['LB', 'UB'] : c.pattern.filter(function (v, i, a) { return a.indexOf(v) === i; });
-      var typesHtml = types.map(function (t) { return '<span>' + TYPE_LABELS[t] + '</span>'; }).join('');
-      d.innerHTML = '<div class="code">' + c.code + (c.covered === false ? '<span class="soon-badge">Jald aa raha hai</span>' : '') + '</div>'
-        + '<div class="nm">' + c.nameHi + ' <small>• ' + c.nameEn + '</small></div>'
-        + '<div class="meta">' + (c.covered === false ? 'Cabins / coupe — 24 berths' : '1–' + c.total + ' berths / seats') + '</div>'
-        + '<div class="types">' + typesHtml + '</div>'
-        + '<div class="go">' + (c.covered === false ? 'Kyun nahi? →' : 'Check karo →') + '</div>';
-      function go() { location.hash = 'berth-' + c.id; }
-      d.addEventListener('click', go);
-      d.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
-      g.appendChild(d);
-    });
-  }
-
-  /* ---------- Home: best-berth helper ---------- */
-  $('scenRow').addEventListener('click', function (e) {
-    var b = e.target.closest('button'); if (!b) return;
-    document.querySelectorAll('#scenRow button').forEach(function (x) { x.classList.remove('on'); });
-    b.classList.add('on');
-    var s = SCEN[b.getAttribute('data-scen')];
-    var out = $('helperOut');
-    out.innerHTML = '<b>✓ Aapke liye: ' + s.rec + '</b><br>' + s.why
-      + '<br><a class="go-link" href="#berth-' + s.coach + '">' + (s.coach === 'cc' ? 'Chair Car mein check karo →' : 'Sleeper mein check karo →') + '</a>';
-    out.classList.add('show');
-  });
-
-  /* ---------- Shared: group chips (bay / row detail) ---------- */
-  function renderGroupChips(seats, target) {
-    var cols = seats.length <= 6 ? 3 : seats.length <= 8 ? 4 : 3;
-    var html = '<div class="bay-grid" style="grid-template-columns:repeat(' + cols + ',1fr)">';
-    seats.forEach(function (s) {
-      var info = CT.BERTH_TYPE_INFO[s.code];
-      var me = s.n === target;
-      html += '<div class="bay-cell' + (me ? ' me' : '') + '"><b>' + s.n + '</b><span>' + s.code + ' • ' + info.en + '</span>' + (me ? '<br><span class="tag">★ AAPKI BERTH</span>' : '') + '</div>';
-    });
-    return html + '</div>';
-  }
-
-  /* ---------- Coach page ---------- */
-  function renderCoachPage(id) {
-    state.coach = id;
-    var c = CT.berthCoachById(id);
-    $('coachCrumb').textContent = c.nameHi + ' (' + c.code + ')';
-    var types = c.covered === false ? ['LB', 'UB'] : c.pattern.filter(function (v, i, a) { return a.indexOf(v) === i; });
-    var typeRows = types.map(function (t) {
-      var info = CT.BERTH_TYPE_INFO[t];
-      return '<div class="type-row"><span class="code-chip">' + t + '</span><div class="tt"><b>' + info.en + ' • ' + info.hi + '</b><span>' + info.sub + '</span></div></div>';
-    }).join('');
-
-    var guide = '';
-    if (c.covered === false) {
-      guide = '<div class="guide-box"><h4>📖 First AC ka layout</h4><p>First AC mein <b>cabins (4 berths)</b> aur <b>coupe (2 berths)</b> hote hain. Har cabin mein Lower aur Upper berths hoti hain, par seat number se pata nahi chalta kaunsi hai — isliye is tool mein 1A abhi covered nahi hai.</p><p style="margin-top:8px">Apni train ka exact coach layout <b>IRCTC</b> par check karo.</p></div>';
-    } else if (c.kind === 'sleeper') {
-      var mainRows = (c.baySize - c.sideCount) / 2;
-      var sideNames = c.sideCount === 3 ? 'Side Lower, Side Middle aur Side Upper' : 'Side Lower aur Side Upper';
-      guide = '<div class="guide-box"><h4>📖 Is coach ka layout</h4><ul>'
-        + '<li>Har <b>bay mein ' + c.baySize + ' berths</b> hain — ' + (mainRows * 2) + ' main bay mein (2 taraf × ' + mainRows + ' tiers) + ' + c.sideCount + ' side (' + sideNames + ').</li>'
-        + '<li>Number har ' + c.baySize + ' ke baad repeat hota hai — jaise Sleeper mein 1 aur 9 dono Lower Berth hain.</li>'
-        + '<li>Main bay ki berths <b>khidki ki taraf</b> hoti hain; side berths <b>galiyare ki taraf</b>.</li></ul>'
-        + '<p style="margin-top:10px"><b>Bay 1 ka layout:</b></p><div id="miniBay"></div></div>';
-    } else {
-      var sideTxt = c.id === 'cc' ? '3 ek taraf (Window, Middle, Aisle) + 2 doosri taraf (Aisle, Window). Pehli row mein 4 seats hain.'
-        : c.id === 'ec' ? '2 ek taraf (Window, Aisle) + 2 doosri taraf (Aisle, Window) — beech wali seat nahi hoti.'
-        : '3 ek taraf (Window, Middle, Aisle) + 3 doosri taraf (Aisle, Middle, Window).';
-      guide = '<div class="guide-box"><h4>📖 Is coach ka layout</h4><ul>'
-        + '<li>Har <b>row mein ' + c.rowSize + ' seats</b> — ' + sideTxt + '</li>'
-        + '<li>Seat number aage se peeche badhta hai.</li></ul>'
-        + '<p style="margin-top:10px"><b>Row 1 ka layout:</b></p><div id="miniBay"></div></div>';
-    }
-
-    var switchOpts = CT.BERTH_COACHES.map(function (x) {
-      return '<option value="' + x.id + '"' + (x.id === id ? ' selected' : '') + '>' + x.code + ' — ' + x.nameHi + '</option>';
-    }).join('');
-
-    $('coachPage').innerHTML = '<h2><span class="n">3</span> ' + c.nameHi + ' (' + c.code + ')</h2>'
-      + '<p class="sub">' + c.nameEn + ' • 1–' + c.total + ' berths / seats</p>'
-      + '<label for="coachSwitch">Coach badlo</label>'
-      + '<select id="coachSwitch">' + switchOpts + '</select>'
-      + guide
-      + '<div class="type-list" style="margin-top:14px">' + typeRows + '</div>';
-
-    var sw = $('coachSwitch');
-    if (sw) sw.addEventListener('change', function () { location.hash = 'berth-' + sw.value; });
-
-    var mini = $('miniBay');
-    if (mini) {
-      if (c.covered === false) mini.innerHTML = '<p style="color:var(--mut)">Is coach ka koi fixed number pattern nahi hai.</p>';
-      else mini.innerHTML = renderGroupChips(CT.decodeBerth(c.id, 1).groupSeats, -1);
-    }
-
-    var showInput = c.covered !== false;
-    $('seatInput').style.display = showInput ? '' : 'none';
-    $('checkBtn').style.display = showInput ? '' : 'none';
-    var lbl = document.querySelector('#berthCoach label[for="seatInput"]');
-    if (lbl) lbl.style.display = showInput ? '' : 'none';
-    $('coachNote').textContent = 'Note: ' + c.noteHi + ' ' + c.noteEn;
-    $('seatErr').classList.remove('show');
-  }
-
-  $('checkBtn').addEventListener('click', function () {
-    var r = CT.decodeBerth(state.coach, $('seatInput').value);
-    if (!r.ok) {
-      if (r.covered === false) { state.last = r; location.hash = 'berth-result'; return; }
-      var err = $('seatErr');
-      err.textContent = r.errorHi + ' (' + r.errorEn + ')';
-      err.classList.add('show');
-      return;
-    }
-    state.last = r;
-    location.hash = 'berth-result';
-  });
-  $('seatInput').addEventListener('keydown', function (e) { if (e.key === 'Enter') $('checkBtn').click(); });
-
-  /* ---------- 3D-style whole-coach SVG ---------- */
-  function cellSVG(x, y, w, h, n, isTarget) {
-    var s = '';
-    if (isTarget) {
-      s += '<rect class="hl-ring" x="' + (x - 4).toFixed(1) + '" y="' + (y - 4).toFixed(1) + '" width="' + (w + 8).toFixed(1) + '" height="' + (h + 8).toFixed(1) + '" rx="9" fill="none" stroke="#f59e0b" stroke-width="3"/>';
-    }
-    s += '<rect class="' + (isTarget ? 'hl-cell' : '') + '" x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + w.toFixed(1) + '" height="' + h.toFixed(1) + '" rx="6" fill="' + (isTarget ? '#FFD400' : '#ede9fe') + '" stroke="' + (isTarget ? '#4c1d95' : '#c9bfe8') + '" stroke-width="' + (isTarget ? 2.5 : 1.2) + '"/>';
-    s += '<text x="' + (x + w / 2).toFixed(1) + '" y="' + (y + h / 2 + 4.5).toFixed(1) + '" text-anchor="middle" font-size="12.5" font-weight="' + (isTarget ? 900 : 700) + '" fill="' + (isTarget ? '#1e1b4b' : '#5b21b6') + '" font-family="inherit">' + n + '</text>';
-    return s;
-  }
-
-  function buildCoachSVG(coach, seat) {
-    var isSleeper = coach.kind === 'sleeper';
-    var W = 1000, bodyY = 64, cellH = 34, gap = 6, gridY0 = 100;
-    var bodyH, gridBottom, bays, bayW, slices;
-    if (isSleeper) {
-      bays = Math.ceil(coach.total / coach.baySize);
-      bayW = 936 / bays;
-      var mainRows = (coach.baySize - coach.sideCount) / 2;
-      var sideY = gridY0 + mainRows * (cellH + gap) - gap + 8;
-      gridBottom = sideY + 26;
-      bodyH = gridBottom + 34 - bodyY;
-    } else {
-      slices = [];
-      if (coach.firstRow) {
-        slices.push({ top: [1, 2], bottom: [3, 4] });
-        var n = coach.firstRow + 1;
-        while (n <= coach.total) {
-          var arr = [];
-          for (var k = 0; k < coach.rowSize && n <= coach.total; k++, n++) arr.push(n);
-          slices.push({ top: arr.slice(0, 3), bottom: arr.slice(3) });
-        }
-      } else {
-        var m = 1;
-        while (m <= coach.total) {
-          var arr2 = [];
-          for (var k2 = 0; k2 < coach.rowSize && m <= coach.total; k2++, m++) arr2.push(m);
-          var half = Math.ceil(arr2.length / 2);
-          slices.push({ top: arr2.slice(0, half), bottom: arr2.slice(half) });
-        }
-      }
-      var topCount = 0, botCount = 0;
-      slices.forEach(function (s) { topCount = Math.max(topCount, s.top.length); botCount = Math.max(botCount, s.bottom.length); });
-      gridBottom = gridY0 + topCount * (cellH + gap) - gap + 16 + botCount * (cellH + gap) - gap;
-      bodyH = gridBottom + 34 - bodyY;
-    }
-    var H = bodyY + bodyH + 66;
-    var p = [];
-    p.push('<svg viewBox="0 0 ' + W + ' ' + H + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Coach layout">');
-    p.push('<defs><linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ede9fe"/></linearGradient>'
-      + '<linearGradient id="rf1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>');
-    p.push('<ellipse cx="500" cy="' + (H - 12) + '" rx="440" ry="9" fill="#000" opacity="0.07"/>');
-    p.push('<polygon points="52,' + bodyY + ' 948,' + bodyY + ' 928,42 72,42" fill="url(#rf1)" stroke="#c4b5fd" stroke-width="1.5"/>');
-    p.push('<rect x="24" y="' + bodyY + '" width="952" height="' + bodyH + '" rx="16" fill="url(#bg1)" stroke="#ddd6fe" stroke-width="1.5"/>');
-    p.push('<text x="500" y="57" text-anchor="middle" font-size="13" font-weight="800" fill="#4c1d95" font-family="inherit">' + coach.code + ' • ' + coach.nameEn.toUpperCase() + ' • ' + coach.total + (isSleeper ? ' BERTHS' : ' SEATS') + '</text>');
-    var winCount = isSleeper ? bays : slices.length;
-    for (var wi = 0; wi < winCount; wi++) {
-      var wx = 40 + wi * (920 / winCount) + 6;
-      p.push('<rect x="' + wx.toFixed(1) + '" y="' + (bodyY + 8) + '" width="' + Math.max(14, 920 / winCount - 12).toFixed(1) + '" height="12" rx="6" fill="#bfdbfe" opacity="0.85"/>');
-    }
-    if (isSleeper) {
-      var mr = (coach.baySize - coach.sideCount) / 2;
-      for (var b = 0; b < bays; b++) {
-        var x0 = 32 + b * bayW;
-        if (b > 0) p.push('<line x1="' + x0.toFixed(1) + '" y1="' + (gridY0 - 6) + '" x2="' + x0.toFixed(1) + '" y2="' + gridBottom + '" stroke="#e7e2f2" stroke-width="1"/>');
-        var cellW = (bayW - 14) / 2;
-        for (var pp = 0; pp < coach.baySize; pp++) {
-          var sn = b * coach.baySize + pp + 1;
-          if (sn > coach.total) break;
-          var col = Math.floor(pp / mr), tier = pp % mr;
-          var cx, cy, cw, ch;
-          if (pp < mr * 2) {
-            cx = x0 + 7 + col * (cellW + 2);
-            cy = gridY0 + (mr - 1 - tier) * (cellH + gap);
-            cw = cellW; ch = cellH;
-          } else {
-            var s = pp - mr * 2;
-            var sw = (bayW - 14) / coach.sideCount;
-            cx = x0 + 7 + s * sw;
-            cy = gridY0 + mr * (cellH + gap) - gap + 8;
-            cw = sw - 2; ch = 26;
-          }
-          p.push(cellSVG(cx, cy, cw, ch, sn, sn === seat));
-        }
-      }
-    } else {
-      var sliceW = 936 / slices.length;
-      var topCount = 0;
-      slices.forEach(function (s) { topCount = Math.max(topCount, s.top.length); });
-      var topAreaH = topCount * (cellH + gap) - gap;
-      var botY = gridY0 + topAreaH + 16;
-      slices.forEach(function (sl, si) {
-        var x0 = 32 + si * sliceW;
-        if (si > 0) p.push('<line x1="' + x0.toFixed(1) + '" y1="' + (gridY0 - 6) + '" x2="' + x0.toFixed(1) + '" y2="' + gridBottom + '" stroke="#e7e2f2" stroke-width="1"/>');
-        var cw2 = Math.min(48, sliceW - 8);
-        var cx2 = x0 + (sliceW - cw2) / 2;
-        var topOff = (topCount - sl.top.length) * (cellH + gap) / 2;
-        sl.top.forEach(function (sn, ti) { p.push(cellSVG(cx2, gridY0 + topOff + ti * (cellH + gap), cw2, cellH, sn, sn === seat)); });
-        sl.bottom.forEach(function (sn, bi) { p.push(cellSVG(cx2, botY + bi * (cellH + gap), cw2, cellH, sn, sn === seat)); });
-        p.push('<line x1="' + (x0 + 4).toFixed(1) + '" y1="' + (gridY0 + topAreaH + 8) + '" x2="' + (x0 + sliceW - 4).toFixed(1) + '" y2="' + (gridY0 + topAreaH + 8) + '" stroke="#c4b5fd" stroke-width="1.5" stroke-dasharray="4 4"/>');
-      });
-    }
-    [150, 800].forEach(function (bx) {
-      p.push('<rect x="' + bx + '" y="' + (bodyY + bodyH + 8) + '" width="120" height="15" rx="7" fill="#312e45"/>');
-      p.push('<circle cx="' + (bx + 26) + '" cy="' + (bodyY + bodyH + 32) + '" r="11" fill="#1f2937"/><circle cx="' + (bx + 26) + '" cy="' + (bodyY + bodyH + 32) + '" r="4" fill="#9ca3af"/>');
-      p.push('<circle cx="' + (bx + 94) + '" cy="' + (bodyY + bodyH + 32) + '" r="11" fill="#1f2937"/><circle cx="' + (bx + 94) + '" cy="' + (bodyY + bodyH + 32) + '" r="4" fill="#9ca3af"/>');
-    });
-    p.push('</svg>');
-    return p.join('');
-  }
-
-  /* ---------- Result page ---------- */
-  function renderResult() {
-    var r = state.last;
-    if (!r) { location.hash = 'berth'; return; }
-    $('backCoachLink').href = '#berth-' + r.coach.id;
-    var el = $('resultPage');
-    if (r.covered === false) {
-      el.innerHTML = '<div class="nc-card"><b>⛔ ' + r.coach.nameHi + ' (' + r.coach.code + ') abhi covered nahi hai</b><br><br>' + r.errorHi + '<br>' + r.errorEn + '<br><br>1A mein cabins (4 berths) aur coupe (2 berths) hote hain — Lower aur Upper dono hote hain, par seat number se pata nahi chalta kaunsi hai. Apni train ka coach layout IRCTC par check karo.</div>';
-      return;
-    }
-    var sideIcon = r.side === 'window' ? '🪟' : r.side === 'aisle' ? '🚶' : '⬜';
-    var groupLabel = r.group.kind === 'bay' ? ('Bay ' + r.group.no + ' • Berths ' + r.group.start + '–' + r.group.end) : ('Row ' + r.group.no + ' • Seats ' + r.group.start + '–' + r.group.end);
-    el.innerHTML = '<div class="res-card">'
-      + '<div class="seatno">' + r.coach.code + ' • ' + r.coach.nameHi.toUpperCase() + ' • SEAT ' + r.seat + '</div>'
-      + '<div class="big">' + r.typeEn + '</div>'
-      + '<div class="big-hi">' + r.typeHi + ' ★</div>'
-      + '<div class="tip">' + r.tip + '</div>'
-      + '<div class="pills"><span class="pill gold">' + sideIcon + ' ' + r.sideEn + ' • ' + r.sideHi + '</span><span class="pill">' + groupLabel + '</span></div>'
-      + '</div>'
-      + '<div class="coach-wrap"><div class="coach-title">🚆 Poora coach — aapki berth peeli highlighted hai <span style="color:var(--mut);font-weight:400">(scroll karke dekho)</span></div>'
-      + '<div class="coach-strip" id="coachStrip">' + buildCoachSVG(r.coach, r.seat) + '</div></div>'
-      + '<div class="bay-card"><h4>' + (r.group.kind === 'bay' ? 'Bay ' + r.group.no + ' ka layout — berths ' + r.group.start + ' se ' + r.group.end : 'Row ' + r.group.no + ' ka layout — seats ' + r.group.start + ' se ' + r.group.end) + '</h4>'
-      + renderGroupChips(r.groupSeats, r.seat)
-      + '<p class="src-note" style="margin-top:10px">🟡 Peeli wali aapki berth hai. ' + (r.group.kind === 'bay' ? 'LB = Lower, MB = Middle, UB = Upper, SL = Side Lower, SM = Side Middle, SU = Side Upper.' : 'W = Window, M = Middle, A = Aisle.') + '</p></div>'
-      + '<p class="src-note">Note: ' + r.coach.noteHi + '</p>';
-    setTimeout(function () {
-      var strip = $('coachStrip');
-      if (!strip) return;
-      var hl = strip.querySelector('.hl-cell');
-      var svg = strip.querySelector('svg');
-      if (hl && svg && svg.viewBox && svg.viewBox.baseVal) {
-        var cx = parseFloat(hl.getAttribute('x')) + parseFloat(hl.getAttribute('width')) / 2;
-        var px = cx / svg.viewBox.baseVal.width * svg.getBoundingClientRect().width;
-        strip.scrollLeft = Math.max(0, px - strip.clientWidth / 2);
-      }
-    }, 80);
-  }
-
-  $('waShareBtn').addEventListener('click', function () {
-    var r = state.last;
-    if (!r || !r.ok) return;
-    var msg = 'Meri train berth: ' + r.coach.code + ' coach, Seat ' + r.seat + ' — ' + r.typeEn + ' (' + r.typeHi + '), ' + r.sideEn + '. Train Berth Finder se check kiya: https://pranav-69-69.github.io/creator-tools/#tool-berth';
-    window.open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank');
-  });
-  $('againBtn').addEventListener('click', function () {
-    if (state.last) location.hash = 'berth-' + state.last.coach.id;
-  });
-
-  /* ---------- Init ---------- */
-  renderCoachCards();
-  if (currentRoute()) showView();
-})();
-</script>
 </body>
 </html>

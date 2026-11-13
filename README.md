@@ -1,20 +1,8 @@
-# Creator Tools — Free Tools for Indian Creators
+# Viral Thumbnail Maker — Free Tool for Indian Creators
 
-Free, no sign-up, no login, no data collected. Built by **True Turns** for Hindi creators.
+Upload your own photo, pick one of 5 templates, type your text, download a **1280×720 PNG**.
 
 Live site: https://pranav-69-69.github.io/creator-tools/
-
-## Tool 1 — Hindi Shorts Hook & Title Generator
-Type a topic, pick a category (Biography / Motivation / Facts / Story / Money & Business),
-choose Hindi or Hinglish, and get **10 viral hooks + 10 titles + hashtags** in seconds.
-
-Hook patterns come from 2025–26 Shorts research (first 2.5 seconds decide; payoff must
-match the promise): Number Contrast, Question, Secret/Reveal, "Aaj" Urgency, Mistake Audit,
-Result First, Paradox, "Kaise" Curiosity, Twist, Before/After, Lessons, Loop, POV, Challenge.
-Optional starting/ending numbers power the Number Contrast hooks — always use real numbers.
-
-## Tool 2 — Viral Thumbnail Maker
-Upload your own photo, pick one of 5 templates, type your text, download a **1280×720 PNG**.
 
 Templates come from 2025–26 thumbnail research (10,000+ thumbnails analysed):
 1. **Big Face + Bold Text** — face + text split; faces with strong emotion lift CTR 25–40%.
@@ -28,13 +16,12 @@ bold sans-serif with black stroke, high contrast, max 2–3 elements, never cove
 keep the bottom-right corner clear (duration badge). Fully client-side — your photo never
 leaves your browser.
 
+Also try our other free tool: **Train Berth Finder** — https://pranav-69-69.github.io/train-berth-finder/
+
 ## How it works
 - Static site: `index.html` + `app.js`. No server, no build step, no paid APIs.
 - Hosted free on GitHub Pages.
 
 ## Test
-```bash
-node -e "const CT=require('./app.js'); console.log(CT.generateHooks('Ratan Tata','biography','hi','₹15,000','₹75,000 crore'))"
-```
 Open `index.html?selftest=1` in a browser — the page runs its own checks and sets the
 title to SELFTEST PASS / FAIL.
